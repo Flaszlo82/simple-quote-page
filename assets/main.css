@@ -1,0 +1,91 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: url('freedom.jpg') no-repeat center;
+  background-size: cover;
+  color: #333;
+  
+}
+
+.wrapper {
+  padding-top: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+   
+}
+
+.quote {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 2.5rem; 
+}
+
+.author {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+} 
+
+.menu{
+    position:fixed;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #fff;
+    
+}
+
+.english{
+  background: url('english_flag.jpg') no-repeat center;
+  background-size: cover;
+    
+}
+
+.hungarian{
+  background: url('hungarian_flag.jpg') no-repeat center;
+  background-size: cover;   
+   
+}
+
+.french{
+  background: url('french_flag.jpg') no-repeat center;
+  background-size: cover;   
+    
+}
+
+.german{
+  background: url('deutch_flag.jpg') no-repeat center;
+  background-size: cover; 
+}
+
+@media(min-width: 768px){
+    
+    .btn{
+      min-width: 50px;
+      min-height: 30px;
+    }
+}
+
+.btn:hover{
+   opacity: .4;
+}
